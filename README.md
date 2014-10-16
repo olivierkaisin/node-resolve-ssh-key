@@ -10,8 +10,11 @@ Easily resolve the full path of your SSH private keys using their basename.
 'use strict';
 
 var resolveSshKey = require('resolve-ssh-key');
+var path = require('path');
 
-resolveSshKey('my-key');
+var searchPath = path.resolve(process.env.HOME, '.ssh');
+
+resolveSshKey(searchPath, 'my-key');
 // <- '/Users/me/.ssh/my-key.pem'
 ```
 
