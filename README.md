@@ -1,4 +1,4 @@
-ssh-key-resolver
+ssh-key-resolver [![Build Status](https://travis-ci.org/olivierkaisin/node-resolve-ssh-key.svg)](https://travis-ci.org/olivierkaisin/node-resolve-ssh-key)
 ================
 
 Easily resolve the full path of your SSH private keys using their basename.
