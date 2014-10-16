@@ -1,6 +1,6 @@
 {
   "name": "resolve-ssh-key",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Easily resolve the full path of your SSH private keys using their basename",
   "main": "index.js",
   "scripts": {
